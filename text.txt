@@ -9,4 +9,5 @@ git log 				: Affiche les modifications
 git branch [nom_branche]		: Ajoute une branche
 git branch				: Affiche les branches
 git checkout [nom_branche]		: Entre dans la branche
-git merge [nom_branche]			: Rapatrier branche dans master (master: branche principale)
+git merge [nom_branche]			: Rapatrier branche dans branche actuelle
+git branch -d [nom_branche]		: supprimer branche
